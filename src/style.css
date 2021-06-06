@@ -1,1 +1,29 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
+body {
+  background-color: green;
+}
+.card {
+  margin-top: 110px;
+  width: 330px;
+  height: 450px;
+  border: 1px solid #000;
+  border-radius: 6px;
+}
+
+h1 {
+  font-size: 5em;
+}
+.middle {
+  margin-top: 120px;
+}
+.top {
+  margin: 5px 0px 0px 5px;
+  font-size: 3em;
+}
+.bottom {
+  float: right;
+  text-align: right;
+  margin: 100px 5px 0px 0px;
+  font-size: 3em;
+  transform: scaleY(-1);
+}
